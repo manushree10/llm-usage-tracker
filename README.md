@@ -1,6 +1,7 @@
 # 💰 LLM Usage Tracker
 
 A reusable Python library and dashboard to track LLM usage, calculate costs, and enforce budget limits.
+live  demo :https://llm-usage-tracker-nkmjmefjndruwttkjidcg2.streamlit.app/
 
 ---
 
