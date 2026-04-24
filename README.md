@@ -54,11 +54,12 @@ llm-usage-tracker/
 pip install -r requirements.txt
 streamlit run dashboard/app.py
 
-🧪 Tech Stack
+##🧪 Tech Stack
 Python
 Streamlit
 JSON (logging)
-🔥 Future Improvements
+
+##🔥 Future Improvements
 Real LLM API integration (OpenAI)
 Database logging
 Multi-user support
