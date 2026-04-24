@@ -4,9 +4,12 @@ from datetime import datetime
 
 
 class UsageLogger:
-    def __init__(self, file_path="data/usage_log.json"):
-        self.file_path = file_path
+    def __init__(self):
+        # 🔥 Correct absolute path
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        self.file_path = os.path.join(base_dir, "data", "usage_log.json")
 
+        # Ensure file exists
         if not os.path.exists(self.file_path):
             with open(self.file_path, "w") as f:
                 json.dump([], f)
@@ -21,10 +24,13 @@ class UsageLogger:
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
 
+        # Read existing data
         with open(self.file_path, "r") as f:
             data = json.load(f)
 
+        # Append new log
         data.append(log_entry)
 
+        # Write back
         with open(self.file_path, "w") as f:
             json.dump(data, f, indent=4)
