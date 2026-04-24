@@ -1,0 +1,58 @@
+[
+    {
+        "prompt": "hi everyone,how are you ,how its going",
+        "input_tokens": 7,
+        "output_tokens": 20,
+        "total_tokens": 27,
+        "cost": 0.0047,
+        "timestamp": "2026-04-24 10:51:11"
+    },
+    {
+        "prompt": "explain ML",
+        "input_tokens": 2,
+        "output_tokens": 20,
+        "total_tokens": 22,
+        "cost": 0.0042,
+        "timestamp": "2026-04-24 10:53:17"
+    },
+    {
+        "prompt": "explain ML and AI",
+        "input_tokens": 4,
+        "output_tokens": 20,
+        "total_tokens": 24,
+        "cost": 0.0044,
+        "timestamp": "2026-04-24 10:53:39"
+    },
+    {
+        "prompt": "jdhf shfhegfrh jhfewhfu hefewghf hehfrgf whfurh hewgfyrweg hegyeg hewgryeb ewhgf egfye",
+        "input_tokens": 11,
+        "output_tokens": 20,
+        "total_tokens": 31,
+        "cost": 0.0051,
+        "timestamp": "2026-04-24 11:32:51"
+    },
+    {
+        "prompt": "hdf fhge fhewgf ehgf ehf dhfh hefj",
+        "input_tokens": 7,
+        "output_tokens": 20,
+        "total_tokens": 27,
+        "cost": 0.0047,
+        "timestamp": "2026-04-24 11:33:04"
+    },
+    {
+        "prompt": "hfh fehbefh ddhg dggd dggd hwqu dwijd",
+        "input_tokens": 7,
+        "output_tokens": 20,
+        "total_tokens": 27,
+        "cost": 0.0047,
+        "timestamp": "2026-04-24 11:33:15"
+    },
+    {
+        "prompt": "whsdg dhgf hfded egfy hefyb hgfye ehg heg hefg ehgfybehg ",
+        "input_tokens": 10,
+        "output_tokens": 20,
+        "total_tokens": 30,
+        "cost": 0.005,
+        "timestamp": "2026-04-24 11:33:30"
+    }
+]
